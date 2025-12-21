@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Content Hub - Ipshita Sur. Articles, Tutorials, and Updates.">
+    <title>Content Hub | Ipshita Sur</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Sticky Sub-nav for Content Hub */
+        .content-nav {
+            position: sticky;
+            top: 70px;
+            /* Below main navbar */
+            z-index: 900;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--glass-border);
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+        }
+
+        .content-nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .content-nav a {
+            color: var(--text-secondary);
+            font-weight: 500;
+            font-size: 0.95rem;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+        }
+
+        .content-nav a:hover,
+        .content-nav a.active {
+            background: rgba(56, 189, 248, 0.1);
+            color: var(--accent-primary);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background-glob"></div>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Ipshita.</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="blog.html" class="active">Content Hub</a></li>
+                <li><a href="index.html#contact" class="btn-primary">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="section" style="padding-bottom: 2rem; padding-top: 8rem;">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="fade-in">Content <span class="gradient-text">Hub</span></h1>
+                <p class="fade-in delay-1" style="max-width: 600px; margin: 1rem auto; color: var(--text-secondary);">
+                    Overview of my articles, tutorials, social media campaigns, and product updates.
+                </p>
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sticky Jump Links -->
+    <div class="content-nav fade-in delay-2">
+        <div class="container">
+            <ul>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#tutorials">Tutorials</a></li>
+                <li><a href="#updates">Product Updates</a></li>
+                <li><a href="#social">Social Media</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ARTICLES SECTION -->
+    <section id="articles" class="section" style="padding-top: 2rem;">
+        <div class="container">
+            <h2 class="section-title fade-in">Featured <span class="gradient-text">Articles</span></h2>
+            <div class="blog-grid fade-in delay-2">
+                <!-- Tezo Articles -->
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">FinTech</span>
+                        <h3>API-First BNPL Solutions</h3>
+                        <a href="https://org.tezo.com/blog/implementing-api-first-bnpl-solutions-for-uae-and-gcc-e-commerce/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Manufacturing</span>
+                        <h3>Industrial IoT Trends 2026</h3>
+                        <a href="https://org.tezo.com/blog/industrial-iot-trends-in-manufacturing-2026/" target="_blank"
+                            class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">BFSI</span>
+                        <h3>Agentic AI in BFSI</h3>
+                        <a href="https://org.tezo.com/blog/agentic-ai-in-bfsi-the-future-of-smarter-financial-systems/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1504384308090-c54be3852f9d?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Manufacturing</span>
+                        <h3>Data Modernization 4.0</h3>
+                        <a href="https://org.tezo.com/blog/the-role-of-data-modernization-in-manufacturing-4-0/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">AI & Mfg</span>
+                        <h3>Industrial AI for Smart Mfg</h3>
+                        <a href="https://org.tezo.com/blog/industrial-artificial-intelligence-for-smart-manufacturing-4-0/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1611974765270-ca12586343bb?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">FinTech</span>
+                        <h3>Real-Time HFT Architecture</h3>
+                        <a href="https://org.tezo.com/blog/real-time-architecture-for-high-frequency-trading-hft/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">InsurTech</span>
+                        <h3>Low-Code & AIOps ROI</h3>
+                        <a href="https://org.tezo.com/blog/maximizing-roi-with-low-code-and-aiops-in-insurance/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Strategy</span>
+                        <h3>Caribbean AI Partner Guide</h3>
+                        <a href="https://org.tezo.com/blog/choosing-the-best-ai-partner-in-the-caribbean-a-2025-executive-guide/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1535378437-d6dbbb111c95?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">InsurTech</span>
+                        <h3>Future of Agent Portals</h3>
+                        <a href="https://org.tezo.com/blog/why-smart-agent-portals-are-the-real-future-of-conversational-ai-in-insur/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">InsurTech</span>
+                        <h3>Underwriting Automation</h3>
+                        <a href="https://org.tezo.com/blog/underwriting-automation-strategic-implementation-guide-2025/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1555421689-d68471e189f2?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">InsurTech</span>
+                        <h3>AI in Underwriting 2026</h3>
+                        <a href="https://org.tezo.com/blog/underwriting-intelligence-how-ai-is-reshaping-insurance-in-2026/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">InsurTech</span>
+                        <h3>Caribbean Digital Transf.</h3>
+                        <a href="https://org.tezo.com/blog/why-is-2026-too-late-for-caribbean-insurers-for-digital-transformation/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">InsurTech</span>
+                        <h3>Digital Strategy 2026</h3>
+                        <a href="https://org.tezo.com/blog/reimagining-caribbean-insurance-digital-strategy-for-2026/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">InsurTech</span>
+                        <h3>AI in Complex Claims</h3>
+                        <a href="https://org.tezo.com/blog/the-future-of-insurance-how-ai-transforms-complex-claims/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">InsurTech</span>
+                        <h3>Scaling AI InsurTech</h3>
+                        <a href="https://org.tezo.com/blog/ai-driven-insurtech-from-prototype-to-scalable-production/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <!-- Leadership -->
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Leadership</span>
+                        <h3>Chief Revenue Officer Explained</h3>
+                        <a href="https://theorganicmarketing.com/the-power-of-revenue-leadership-chief-revenue-officer-explained/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Leadership</span>
+                        <h3>Chief Data Officer Guide</h3>
+                        <a href="https://theorganicmarketing.com/chief-data-officer-everything-you-need-to-know/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Leadership</span>
+                        <h3>Understanding C-Suite Roles</h3>
+                        <a href="https://theorganicmarketing.com/the-c-suite-understanding-chief-positions-and-their-impact/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Leadership</span>
+                        <h3>Chief Compliance Officer</h3>
+                        <a href="https://theorganicmarketing.com/chief-compliance-officer-everything-you-need-to-know/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Leadership</span>
+                        <h3>Chief of Staff Guide</h3>
+                        <a href="https://theorganicmarketing.com/chief-of-staff-everything-you-need-to-know/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Leadership</span>
+                        <h3>Chief Product Officer</h3>
+                        <a href="https://theorganicmarketing.com/chief-product-officer-everything-you-should-know/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Career</span>
+                        <h3>Business vs Job</h3>
+                        <a href="https://theorganicmarketing.com/business-vs-job-a-guide-to-making-the-right-decision/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Career</span>
+                        <h3>Assessing Key Positions</h3>
+                        <a href="https://theorganicmarketing.com/assessing-key-positions-in-a-company-roles-responsibilities-and-career-opportunities/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Tech & Marketing -->
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Tech</span>
+                        <h3>AI for Business Success</h3>
+                        <a href="https://theorganicmarketing.com/artificial-intelligence-for-business-success-the-future-is-now/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">SEO</span>
+                        <h3>SEO: Everything to Know</h3>
+                        <a href="https://theorganicmarketing.com/search-engine-optimization-everything-you-must-need-to-know/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Marketing</span>
+                        <h3>Social Media Marketing Guide</h3>
+                        <a href="https://theorganicmarketing.com/social-media-marketing-the-definitive-guide-to-success/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1626785774573-4b7993143a2d?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Marketing</span>
+                        <h3>Promote Business on Social</h3>
+                        <a href="https://theorganicmarketing.com/strategies-to-promote-business-on-social-media/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1533750516457-a7f992034fec?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Marketing</span>
+                        <h3>Google AdWords Exposed</h3>
+                        <a href="https://theorganicmarketing.com/google-adwords-exposed-insider-tips-for-successful-campaigns/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Marketing</span>
+                        <h3>Website Design Guide</h3>
+                        <a href="https://theorganicmarketing.com/website-design-everything-you-need-to-know/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://plus.unsplash.com/premium_photo-1683493800262-132d96c9bc51?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Marketing</span>
+                        <h3>Quora Complete Guide</h3>
+                        <a href="https://theorganicmarketing.com/understanding-quora-the-complete-guide/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Career</span>
+                        <h3>Is Digital Marketing Best?</h3>
+                        <a href="https://theorganicmarketing.com/is-digital-marketing-the-best-career/" target="_blank"
+                            class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Marketing</span>
+                        <h3>The Meta Era</h3>
+                        <a href="https://theorganicmarketing.com/the-meta-era-facebook-instagram-and-whatsapp-evolution/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1614680376593-902f74cf0d41?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Marketing</span>
+                        <h3>Get Blue Tick on Facebook</h3>
+                        <a href="https://theorganicmarketing.com/get-blue-tick-on-facebook-and-instagram-meta-verified/"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Lifestyle & History -->
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1596700877983-a006c745749f?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Lifestyle</span>
+                        <h3>Designer Lehenga Choice</h3>
+                        <a href="https://www.w-n-w.in/post/why-should-you-choose-a-designer-lehenga-for-your-wedding"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Lifestyle</span>
+                        <h3>Best Fabric for Lehenga</h3>
+                        <a href="https://www.w-n-w.in/post/season-wise-best-fabric-for-wedding-lehenga" target="_blank"
+                            class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1545959788-b23533fd0546?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Lifestyle</span>
+                        <h3>Shades of Pink for Bride</h3>
+                        <a href="https://www.w-n-w.in/post/shades-of-pink-for-every-bride-to-fulfill-her-barbie-dreams-on-the-wedding-day"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1588117260148-44b8a8707748?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Lifestyle</span>
+                        <h3>Reception: Saree or Lehenga?</h3>
+                        <a href="https://www.w-n-w.in/post/which-outfit-is-best-for-the-reception-saree-or-lehenga"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1544967082-d9d3f4aca9d2?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Lifestyle</span>
+                        <h3>Destination Weddings</h3>
+                        <a href="https://www.w-n-w.in/post/why-destination-weddings-are-gaining-popularity"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1580651315530-69c8e0026377?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Lifestyle</span>
+                        <h3>6 Korean Recipes</h3>
+                        <a href="https://nestasia.in/blogs/news/6-mouth-watering-trending-korean-recipes-to-try-today"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1591123120675-6f7f4a284ddc?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Lifestyle</span>
+                        <h3>8 Ways to Use Tote Bags</h3>
+                        <a href="https://nestasia.in/blogs/news/how-can-you-use-tote-bags-8-different-ways"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1515446221674-82a27a6e4bb6?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Lifestyle</span>
+                        <h3>Thandai for Holi</h3>
+                        <a href="https://nestasia.in/blogs/news/a-fun-twist-to-desi-thandai-for-holi" target="_blank"
+                            class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">History</span>
+                        <h3>Dr. Nightingale of India</h3>
+                        <a href="https://thisday.app/en/details/dr-nightingale-of-india.html" target="_blank"
+                            class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1516280440614-6697288d5d38?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">History</span>
+                        <h3>Koyel: Madurai ki Gunj</h3>
+                        <a href="https://www.thisday.app/en/details/koyel-madurai-ki-gunj" target="_blank"
+                            class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1476370648495-3533fce82904?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">History</span>
+                        <h3>Not So Romantic</h3>
+                        <a href="https://www.thisday.app/en/details/a-not-so-romantic" target="_blank"
+                            class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1533669074812-4ebcc4901f4c?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">History</span>
+                        <h3>Sacrifices of Cumulus</h3>
+                        <a href="https://www.thisday.app/en/details/sacrifices-that-the-cumulus-beholds.html"
+                            target="_blank" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIDEO TUTORIALS SECTION -->
+    <section id="tutorials" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Feature <span class="gradient-text">Tutorials</span></h2>
+            <div class="blog-grid fade-in delay-2">
+                <!-- Added Videos -->
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">Video</span>
+                        <h3>Metadata Filtering</h3><a href="https://docs.revealdata.com/reveal/docs/metadata-filtering"
+                            target="_blank" class="read-more">Watch <i class="fas fa-play"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1516116216624-53e697fedbea?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">Video</span>
+                        <h3>Create & Manage Tags</h3><a
+                            href="https://docs.revealdata.com/reveal/docs/create-manage-tags" target="_blank"
+                            class="read-more">Watch <i class="fas fa-play"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">Video</span>
+                        <h3>Tag Validation Rules</h3><a
+                            href="https://docs.revealdata.com/reveal/docs/tag-validation-rules-set-test-and-use"
+                            target="_blank" class="read-more">Watch <i class="fas fa-play"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">Video</span>
+                        <h3>Manage Fields</h3><a href="https://docs.revealdata.com/reveal/docs/manage-fields"
+                            target="_blank" class="read-more">Watch <i class="fas fa-play"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">Video</span>
+                        <h3>Create Work Folders</h3><a
+                            href="https://docs.revealdata.com/reveal/docs/create-work-folders" target="_blank"
+                            class="read-more">Watch <i class="fas fa-play"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1555421689-d68471e189f2?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">Video</span>
+                        <h3>Reviewer Notes</h3><a href="https://docs.revealdata.com/reveal/docs/reviewer-notes"
+                            target="_blank" class="read-more">Watch <i class="fas fa-play"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">Video</span>
+                        <h3>Search History</h3><a href="https://docs.revealdata.com/reveal/docs/search-history"
+                            target="_blank" class="read-more">Watch <i class="fas fa-play"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">Video</span>
+                        <h3>Bulk Tag Documents</h3><a href="https://docs.revealdata.com/reveal/docs/bulk-tag-documents"
+                            target="_blank" class="read-more">Watch <i class="fas fa-play"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">Video</span>
+                        <h3>Brain Explorer</h3><a href="https://docs.revealdata.com/reveal/docs/brain-explorer"
+                            target="_blank" class="read-more">Watch <i class="fas fa-play"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1558494949-efc02570fbc9?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">Video</span>
+                        <h3>Clusters</h3><a href="https://docs.revealdata.com/reveal/docs/clusters" target="_blank"
+                            class="read-more">Watch <i class="fas fa-play"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">Video</span>
+                        <h3>Create Image Labels</h3><a
+                            href="https://docs.revealdata.com/reveal/docs/create-image-labels-image-labeling"
+                            target="_blank" class="read-more">Watch <i class="fas fa-play"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1589330694653-569e172485fe?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">Video</span>
+                        <h3>Run OCR</h3><a href="https://docs.revealdata.com/reveal/docs/run-ocr" target="_blank"
+                            class="read-more">Watch <i class="fas fa-play"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1516280440614-6697288d5d38?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">Video</span>
+                        <h3>Transcribe Audio</h3><a
+                            href="https://docs.revealdata.com/reveal/docs/transcribe-video-and-audio" target="_blank"
+                            class="read-more">Watch <i class="fas fa-play"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">Video</span>
+                        <h3>Translation</h3><a href="https://docs.revealdata.com/reveal/docs/translate-translation"
+                            target="_blank" class="read-more">Watch <i class="fas fa-play"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">Video</span>
+                        <h3>Production Set</h3><a href="https://docs.revealdata.com/reveal/docs/create-a-production-set"
+                            target="_blank" class="read-more">Watch <i class="fas fa-play"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">Video</span>
+                        <h3>Production Job</h3><a href="https://docs.revealdata.com/reveal/docs/run-a-production-job"
+                            target="_blank" class="read-more">Watch <i class="fas fa-play"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">Video</span>
+                        <h3>Preprocessing</h3><a
+                            href="https://docs.revealdata.com/reveal/docs/run-production-job-preprocessing"
+                            target="_blank" class="read-more">Watch <i class="fas fa-play"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCT UPDATES SECTION -->
+    <section id="updates" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Product <span class="gradient-text">Updates</span></h2>
+            <div class="blog-grid fade-in delay-2">
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Release Note</span>
+                        <h3>November 2024</h3>
+                        <a href="https://docs.revealdata.com/reveal/docs/reveal-202411-release-notes" target="_blank"
+                            class="read-more">Read Notes <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Release Note</span>
+                        <h3>September 2024</h3>
+                        <a href="https://docs.revealdata.com/reveal/docs/reveal-20249-release-notes" target="_blank"
+                            class="read-more">Read Notes <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Release Note</span>
+                        <h3>July 2024</h3>
+                        <a href="https://docs.revealdata.com/reveal/docs/reveal-20247-release-notes" target="_blank"
+                            class="read-more">Read Notes <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Release Note</span>
+                        <h3>May 2024</h3>
+                        <a href="https://docs.revealdata.com/reveal/docs/reveal-20245-release-notes" target="_blank"
+                            class="read-more">Read Notes <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content">
+                        <span class="tag">Release Note</span>
+                        <h3>April 2024</h3>
+                        <a href="https://docs.revealdata.com/reveal/docs/reveal-20244-release-notes" target="_blank"
+                            class="read-more">Read Notes <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOCIAL MEDIA SECTION -->
+    <section id="social" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Social Media <span class="gradient-text">Highlights</span></h2>
+            <div class="blog-grid fade-in delay-2">
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1611926653458-09294b3142bf?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">LinkedIn</span>
+                        <h3>Sales Enablement Effective</h3><a
+                            href="https://www.linkedin.com/posts/thriving-springs_how-to-do-sales-enablement-effectively-activity-7180291543679819776-8fCI?utm_source=share&utm_medium=member_desktop&rcm=ACoAACVY2SAB5bxueoTARga38Yhw2nCUZcEQl3g"
+                            target="_blank" class="read-more">View <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">LinkedIn</span>
+                        <h3>Skills for Leaders</h3><a
+                            href="https://www.linkedin.com/posts/thriving-springs_top-skills-every-industry-leader-must-have-activity-7185331398184992768-K7hv"
+                            target="_blank" class="read-more">View <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">LinkedIn</span>
+                        <h3>SaaS LMS</h3><a
+                            href="https://www.linkedin.com/posts/thriving-springs_saas-lms-everything-you-should-know-activity-7187876636363485184-cr7W"
+                            target="_blank" class="read-more">View <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">LinkedIn</span>
+                        <h3>Empathy Matters</h3><a
+                            href="https://www.linkedin.com/posts/thriving-springs_empathy-weekendvibes-empathymatters-activity-7166775090263605248-a2rw"
+                            target="_blank" class="read-more">View <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">LinkedIn</span>
+                        <h3>Micro Certifications</h3><a
+                            href="https://www.linkedin.com/posts/thriving-springs_small-steps-big-gains-how-micro-certifications-activity-7189102719062749185-I1_n"
+                            target="_blank" class="read-more">View <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">LinkedIn</span>
+                        <h3>Upskill & Reskill</h3><a
+                            href="https://www.linkedin.com/posts/thriving-springs_upskill-and-reskill-your-employees-the-keys-activity-7204750714219237376-jivR"
+                            target="_blank" class="read-more">View <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">LinkedIn</span>
+                        <h3>Gamified Learning</h3><a
+                            href="https://www.linkedin.com/posts/thriving-springs_gamified-learning-made-easy-why-opt-for-activity-7218517884686282753-S19H"
+                            target="_blank" class="read-more">View <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">LinkedIn</span>
+                        <h3>Sales Slump Enablement</h3><a
+                            href="https://www.linkedin.com/posts/thriving-springs_sales-slump-got-you-down-5-sales-enablement-activity-7216681200902393856-2NZu"
+                            target="_blank" class="read-more">View <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1493612276216-9c5901955d43?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">LinkedIn</span>
+                        <h3>Unplugging Day</h3><a
+                            href="https://www.linkedin.com/posts/thriving-springs_national-day-of-unplugging-post-activity-7169277718352609280-2AxV"
+                            target="_blank" class="read-more">View <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">LinkedIn</span>
+                        <h3>Work Life Wednesday 8</h3><a
+                            href="https://www.linkedin.com/posts/thriving-springs_work-life-wednesday-8-activity-7168557102179794944-Y2_V"
+                            target="_blank" class="read-more">View <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">LinkedIn</span>
+                        <h3>Work Life Wednesday 7</h3><a
+                            href="https://www.linkedin.com/posts/thriving-springs_work-life-wednesday-7-activity-7166040205060214784-Igzc"
+                            target="_blank" class="read-more">View <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1542330952-bfc55f553276?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">LinkedIn</span>
+                        <h3>Work Life Wednesday</h3><a
+                            href="https://www.linkedin.com/posts/thriving-springs_work-life-wednesday-by-thriving-springs-activity-7158426930138992640-35Yo"
+                            target="_blank" class="read-more">View <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1544256718-3bcf237f377e?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">LinkedIn</span>
+                        <h3>Mindfulness at Work</h3><a
+                            href="https://www.linkedin.com/posts/thriving-springs_benefits-of-practicing-mindfulness-at-work-activity-7080416423373668352-coFe"
+                            target="_blank" class="read-more">View <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1533227297464-942915f09066?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">LinkedIn</span>
+                        <h3>Empaths Tips</h3><a
+                            href="https://www.linkedin.com/posts/thriving-springs_empaths-tips-empathy-activity-7176175144086687744-P0-2"
+                            target="_blank" class="read-more">View <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">LinkedIn</span>
+                        <h3>Productivity Boost</h3><a
+                            href="https://www.linkedin.com/posts/thriving-springs_tuesday-productivityboost-tip-activity-7168130301192339456-rCoI"
+                            target="_blank" class="read-more">View <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">LinkedIn</span>
+                        <h3>Microcredentials</h3><a
+                            href="https://www.linkedin.com/posts/thriving-springs_microcredentials-growth-careeropportunities-activity-7166382362518384640-d9DG"
+                            target="_blank" class="read-more">View <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">LinkedIn</span>
+                        <h3>Spirit of Unity</h3><a
+                            href="https://www.linkedin.com/posts/thriving-springs_celebrating-the-spirit-of-unity-diversity-activity-7156511088623120384-KpXK"
+                            target="_blank" class="read-more">View <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">LinkedIn</span>
+                        <h3>Onboarding AI</h3><a
+                            href="https://www.linkedin.com/posts/thriving-springs_onboardingexperience-onboardingprocess-ai-activity-7155502211999907840-h29D"
+                            target="_blank" class="read-more">View <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">LinkedIn</span>
+                        <h3>Trivia Thursday</h3><a
+                            href="https://www.linkedin.com/posts/thriving-springs_triviathursday-trivia-triviatime-activity-7148591387872047105-n53v"
+                            target="_blank" class="read-more">View <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card glass">
+                    <div class="blog-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1576610616656-d3aa5d1f4534?auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="blog-content"><span class="tag">LinkedIn</span>
+                        <h3>Christmas Secret Santa</h3><a
+                            href="https://www.linkedin.com/posts/thriving-springs_christmas-secretsanta-employeewellbeing-activity-7143276173651873794-rRtn"
+                            target="_blank" class="read-more">View <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="mailto:email@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+                <p>&copy; 2024 Ipshita Sur. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const images = document.querySelectorAll('.blog-image');
+            // Gradient pairs matching style.css theme
+            const gradients = [
+                'linear-gradient(135deg, #FF6B6B, #556270)',
+                'linear-gradient(135deg, #4ECDC4, #556270)',
+                'linear-gradient(135deg, #38bdf8, #818cf8)'
+            ];
+
+            images.forEach((imgDiv, index) => {
+                const style = imgDiv.getAttribute('style');
+                if (!style) return;
+
+                const urlMatch = style.match(/url\(['"]?(.*?)['"]?\)/);
+                if (urlMatch && urlMatch[1]) {
+                    const imgUrl = urlMatch[1];
+                    const img = new Image();
+                    let loaded = false;
+
+                    const applyFallback = () => {
+                        if (!loaded) {
+                            // Directly set the background property to override any existing background-image
+                            imgDiv.style.background = gradients[index % gradients.length];
+                        }
+                    };
+
+                    const timer = setTimeout(applyFallback, 2000); // 2 seconds timeout
+
+                    img.onload = () => {
+                        loaded = true;
+                        clearTimeout(timer);
+                    };
+
+                    img.onerror = () => {
+                        loaded = false;
+                        clearTimeout(timer);
+                        applyFallback();
+                    };
+
+                    img.src = imgUrl; // Start loading
+                } else {
+                    // No valid URL found
+                    imgDiv.style.background = gradients[index % gradients.length];
+                }
+            });
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
